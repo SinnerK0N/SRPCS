@@ -2,7 +2,7 @@
 	"username": "USERNAME",
     "password": "PASS",
     "sharedsecret": "SHAREDSEC",
-    "wtext": "1",
+    "wtext": "0",
     "rpctext1": "krypt0n.eu/srpcs",
     "rpctext2": "hi :)",
     "rpctext3": "readifcool"
