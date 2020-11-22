@@ -8,8 +8,8 @@
 
 ## Features
 * Spam Steam RPC:
-![](https://krypt0n.eu/srpcs/1.gif)
-![](https://krypt0n.eu/srpcs/2.gif)
+![Example 1](https://krypt0n.eu/res/srpcs/1.gif)
+![Example 2](https://krypt0n.eu/res/srpcs/2.gif)
 
 ## Setup
 
@@ -24,10 +24,9 @@
 8. Fill in the blanks so it looks something like this:
     ```
     {
-	    "username": "USERNAME",
+	"username": "USERNAME",
         "password": "PASSWORD",
         "sharedsecret": "SHARED SECRET",
-    }
     ```
 9. Run "start.sh"
 10. To stop it press Ctrl & C
@@ -42,6 +41,7 @@
         "rpctext3": "YOUR CUSTOM TEXT HERE"
     }
     ```
+3. To turn the custom text off, set wtext to 0
  
 ## Credits
 - [RayzrDev](https://github.com/RayzrDev)
