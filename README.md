@@ -25,7 +25,7 @@
 8. Fill in the blanks so it looks something like this:
     ```
     {
-		"username": "USERNAME",
+		  "username": "USERNAME",
         "password": "PASSWORD",
         "sharedsecret": "SHARED SECRET",
     ```
