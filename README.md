@@ -8,8 +8,9 @@
 
 ## Features
 * Spam Steam RPC:
-![Example 1](https://krypt0n.eu/res/srpcs/1.gif)
-![Example 2](https://krypt0n.eu/res/srpcs/2.gif)
+
+![Example 1](https://krypt0n.eu/res/srpcs/2.gif)
+![Example 2](https://krypt0n.eu/res/srpcs/1.gif)
 
 ## Setup
 
@@ -24,7 +25,7 @@
 8. Fill in the blanks so it looks something like this:
     ```
     {
-	"username": "USERNAME",
+		"username": "USERNAME",
         "password": "PASSWORD",
         "sharedsecret": "SHARED SECRET",
     ```
