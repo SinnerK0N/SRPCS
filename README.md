@@ -47,5 +47,5 @@
 ## Credits
 - [RayzrDev](https://github.com/RayzrDev)
   - used his [config loader](https://github.com/RayzrDev/bot-base/blob/master/src/bot.js#L10)
-- [Jack Franklin](https://www.sitepoint.com/author/jfranklin/)
+- [Jack Franklin](https://github.com/jackfranklin/)
   - used his [sleep function](https://www.sitepoint.com/delay-sleep-pause-wait/)
