@@ -2,7 +2,6 @@ var fs = require('fs');
 var Steam = require('steam');
 var SteamTotp = require('steam-totp');
 
-// if we've saved a server list, use it
 if (fs.existsSync('servers')) {
   Steam.servers = JSON.parse(fs.readFileSync('servers'));
 }
@@ -38,7 +37,6 @@ steamClient.config = config;
 
 var steamauthcode = SteamTotp.generateAuthCode(config.sharedsecret);
 
-//console.log(steamauthcode);
 steamClient.connect();
 steamClient.on('connected', function() {
   steamUser.logOn({
@@ -51,7 +49,7 @@ steamClient.on('connected', function() {
 steamClient.on('logOnResponse', function(logonResp) {
   if (logonResp.eresult == Steam.EResult.OK) {
     console.log('Logged in!');
-    steamFriends.setPersonaState(Steam.EPersonaState.Online); // to display your bot's status as "Online";
+    steamFriends.setPersonaState(Steam.EPersonaState.Online);
     sleep(1000);
     while (true) {
       if (config.wtext == "1") {
@@ -109,7 +107,8 @@ steamClient.on('logOnResponse', function(logonResp) {
   else 
   {
     console.log("Failed to log in!");
-	console.log(logonResp.eresult);
+    console.log(logonResp.eresult);
+    sleep(2500);  
   }
 });
 
