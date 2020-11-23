@@ -1,5 +1,5 @@
 # Idler
-
+(if you get banned or something its not my problem and i take no responsibility for the ban)
 
 ## Content
 * [Features](#features)
