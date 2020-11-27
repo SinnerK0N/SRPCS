@@ -1,5 +1,5 @@
 # SRPCS
-(if you get banned or something its not my problem and i take no responsibility for the ban but i dont think you can get banned cuz i was spamming it for like2 minutes and nothing happened)
+(if you get banned or something its not my problem and i take no responsibility for the ban but i dont think you can get banned cuz i was spamming it for like 2 minutes and nothing happened)
 
 ## Content
 * [Features](#features)
